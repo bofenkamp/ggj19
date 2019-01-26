@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class SwipeBall : NetworkBehaviour {
+public class SwipeBall : MonoBehaviour {
 
     Vector2 startPos, endPos, direction;        //Touch start position, end position, direction
     float touchTimeStart, touchTimeFinish, timeInterval;    //To calculate swipe time to control throw force in Z direction
@@ -21,9 +21,6 @@ public class SwipeBall : NetworkBehaviour {
 	}
 	
 	void Update () {
-
-        if (!hasAuthority)
-            return;
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
