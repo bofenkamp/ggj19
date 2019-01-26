@@ -15,4 +15,11 @@ public class FoodFinder : MonoBehaviour
     {
         
     }
+
+    public bool CanSeeFood ()
+    {
+        Transform food = this.transform;
+        Transform grandma = GameObject.FindGameObjectWithTag("Eyes").transform;
+        return Physics.Linecast(food.position, grandma.position);
+    }
 }
