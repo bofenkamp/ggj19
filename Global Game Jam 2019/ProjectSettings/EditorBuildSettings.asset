@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MobileInputScene.unity
     guid: faaec83ac2f84d94f9b5f5d7dbebbaaf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BallPhysics.unity
     guid: 3a462966eadd1a04a8bfeb6059667beb
+  - enabled: 1
+    path: Assets/Scenes/NetworkTryDemo.unity
+    guid: d1edb0fdd11d801479d62ca4ee36b711
   m_configObjects: {}

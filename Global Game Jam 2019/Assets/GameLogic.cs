@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NDream.AirConsole;
-using Newtonsoft.Json.Linq;
+//using NDream.AirConsole;
+//using Newtonsoft.Json.Linq;
 
 public class GameLogic : MonoBehaviour
 {
-
+/*
     private void Awake()
     {
         AirConsole.instance.onMessage += OnMessage;
@@ -29,5 +29,5 @@ public class GameLogic : MonoBehaviour
             AirConsole.instance.onMessage -= OnMessage;
         }
     }
-
+    */
 }
