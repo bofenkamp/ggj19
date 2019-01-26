@@ -47,7 +47,6 @@ public class SwipeBall : MonoBehaviour {
             throwForce += new Vector3(throwDirForce.x, throwDirForce.y, 0f);
             Debug.Log(throwForce);
 
-            //rb.AddForce(RotateByAmount(throwDirForce, lookDir));
             rb.AddForce(throwForce);
             transform.parent = null;
         }
@@ -59,14 +58,5 @@ public class SwipeBall : MonoBehaviour {
         Transform cam = transform.parent;
         Transform marker = cam.GetChild(0);
         return marker.position - cam.position;
-    }
-
-    Vector3 RotateByAmount (Vector3 init, Vector3 rot)
-    {
-        Vector3 result = rot;
-        result = result * init.magnitude / rot.magnitude;
-        result = result + init;
-
-        return result;
     }
 }
