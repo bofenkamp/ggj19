@@ -9,15 +9,15 @@ public class RespawnBall : MonoBehaviour {
     [SerializeField]
     GameObject ballPrefab;
 
-    [SerializeField]
+
     GameObject ballGameObject;
 
     Vector3 OriginalPos;
-
+    
 
     private void Awake()
     {
-        OriginalPos = ballGameObject.transform.position;
+        OriginalPos = ballPrefab.transform.position;
     }
 
     void Start () {
@@ -29,8 +29,11 @@ public class RespawnBall : MonoBehaviour {
 
     public void RespawnIt()
     {
+        /*
+        if (ballGameObject != null)
+            Destroy(sb.gameObject);
         
-        Destroy(ballGameObject);
         ballGameObject = Instantiate(ballPrefab, OriginalPos, Quaternion.identity);
+        */
     }
 }

@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class SwipeBall : MonoBehaviour {
+public class SwipeBall : NetworkBehaviour {
 
     Vector2 startPos, endPos, direction;        //Touch start position, end position, direction
     float touchTimeStart, touchTimeFinish, timeInterval;    //To calculate swipe time to control throw force in Z direction
@@ -20,8 +21,16 @@ public class SwipeBall : MonoBehaviour {
 	}
 	
 	void Update () {
-		
-        if(Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Began)    //When you touch the screen
+
+        if (!hasAuthority)
+            return;
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            this.transform.Translate(0, 0.02f, 0);
+        }
+
+        if (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Began)    //When you touch the screen
         {
             touchTimeStart = Time.time;
             startPos = Input.GetTouch(0).position;
