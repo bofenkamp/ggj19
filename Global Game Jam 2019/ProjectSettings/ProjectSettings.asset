@@ -4,11 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-<<<<<<< HEAD
-  productGUID: 61ceaf287cb6b440a904ecc184a9059e
-=======
-  productGUID: 6ba442f743245a642a0570eab7162d18
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
+  productGUID: 1dd8f2cb898577646b8b167388c02a7f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -111,15 +107,11 @@ PlayerSettings:
   xboxOneDisableEsram: 0
   xboxOnePresentImmediateThreshold: 0
   switchQueueCommandMemory: 0
-<<<<<<< HEAD
-  vulkanEnableSetSRGBWrite: 0
-=======
   videoMemoryForVertexBuffers: 0
   psp2PowerMode: 0
   psp2AcquireBGM: 1
   vulkanEnableSetSRGBWrite: 0
   vulkanUseSWCommandBuffers: 0
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -133,10 +125,6 @@ PlayerSettings:
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 0
   xboxOneEnable7thCore: 1
-<<<<<<< HEAD
-  isWsaHolographicRemotingEnabled: 0
-=======
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   vrSettings:
     cardboard:
       depthFormat: 0
@@ -152,8 +140,8 @@ PlayerSettings:
       depthFormat: 1
       depthBufferSharingEnabled: 0
     oculus:
-      sharedDepthBuffer: 1
-      dashSupport: 1
+      sharedDepthBuffer: 0
+      dashSupport: 0
     enable360StereoCapture: 0
   protectGraphicsMemory: 0
   useHDRDisplay: 0
@@ -180,11 +168,7 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-<<<<<<< HEAD
   iOSTargetOSVersionString: 
-=======
-  iOSTargetOSVersionString: 8.0
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 
@@ -250,10 +234,7 @@ PlayerSettings:
   appleEnableAutomaticSigning: 0
   iOSRequireARKit: 0
   appleEnableProMotion: 0
-<<<<<<< HEAD
-=======
   vulkanEditorSupport: 0
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
@@ -263,7 +244,7 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
-  AndroidTVCompatibility: 0
+  AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
@@ -410,12 +391,7 @@ PlayerSettings:
   switchAllowsVideoCapturing: 1
   switchAllowsRuntimeAddOnContentInstall: 0
   switchDataLossConfirmation: 0
-<<<<<<< HEAD
-  switchUserAccountLockEnabled: 0
-  switchSupportedNpadStyles: 6
-=======
   switchSupportedNpadStyles: 3
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   switchNativeFsCacheSize: 32
   switchIsHoldTypeHorizontal: 0
   switchSupportedNpadCount: 8
@@ -468,21 +444,13 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-<<<<<<< HEAD
-  ps4Passcode: CdG5nG5azdNMK66MuCV6GXi5xr84P2R3
-=======
-  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
+  ps4Passcode: eaoEiIgxIX4a2dREbbSqWy6yhKIDCdJO
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
   ps4pnGameCustomData: 1
   playerPrefsSupport: 0
   enableApplicationExit: 0
-<<<<<<< HEAD
-  resetTempFolder: 1
-=======
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   restrictedAudioUsageRights: 0
   ps4UseResolutionFallback: 0
   ps4ReprojectionSupport: 0
@@ -506,8 +474,6 @@ PlayerSettings:
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
   monoEnv: 
-<<<<<<< HEAD
-=======
   psp2Splashimage: {fileID: 0}
   psp2NPTrophyPackPath: 
   psp2NPSupportGBMorGJP: 0
@@ -525,7 +491,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: F69AzBlax3CF3EDNhm3soLBPh71Yexui
+  psp2PackagePassword: yapnxrpMCARCr4zdGc81tBDKsMlaZTXC
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -555,7 +521,6 @@ PlayerSettings:
   psp2InfoBarOnStartup: 0
   psp2InfoBarColor: 0
   psp2ScriptOptimizationLevel: 2
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
@@ -571,22 +536,14 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
-<<<<<<< HEAD
-  webGLThreadsSupport: 0
-=======
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
-<<<<<<< HEAD
-  managedStrippingLevel: {}
-=======
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   incrementalIl2cppBuild: {}
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
-  scriptingRuntimeVersion: 1
+  scriptingRuntimeVersion: 0
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
@@ -615,8 +572,6 @@ PlayerSettings:
   metroFTAFileTypes: []
   metroProtocolName: 
   metroCompilationOverrides: 1
-<<<<<<< HEAD
-=======
   n3dsUseExtSaveData: 0
   n3dsCompressStaticMem: 1
   n3dsExtSaveDataNumber: 0x12345
@@ -628,7 +583,6 @@ PlayerSettings:
   n3dsTitle: GameName
   n3dsProductCode: 
   n3dsApplicationId: 0xFF3FF
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
@@ -658,31 +612,8 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-<<<<<<< HEAD
   cloudServicesEnabled: {}
-  luminIcon:
-    m_Name: 
-    m_ModelFolderPath: 
-    m_PortalFolderPath: 
-  luminCert:
-    m_CertPath: 
-    m_PrivateKeyPath: 
-  luminIsChannelApp: 0
-  luminVersion:
-    m_VersionCode: 1
-    m_VersionName: 
   facebookSdkVersion: 
-  facebookAppId: 
-  facebookCookies: 1
-  facebookLogging: 1
-  facebookStatus: 1
-  facebookXfbml: 0
-  facebookFrictionlessRequests: 1
-=======
-  cloudServicesEnabled:
-    Collab: 1
-  facebookSdkVersion: 7.9.4
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
   apiCompatibilityLevel: 2
   cloudProjectId: bfa24aec-8720-4665-aa54-abc9e04699e5
   projectName: Global Game Jam 2019
@@ -690,7 +621,3 @@ PlayerSettings:
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
-<<<<<<< HEAD
-  legacyClampBlendShapeWeights: 0
-=======
->>>>>>> 4419aea8bcc40d5292dff6ca41fbf6e49b940ae6
