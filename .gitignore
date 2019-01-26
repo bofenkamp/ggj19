@@ -35,3 +35,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Global Game Jam 2019/ProjectSettings/ProjectVersion.txt
+Global Game Jam 2019/ProjectSettings/ProjectSettings.asset
+Global Game Jam 2019/Assets/Scenes/LookingTest.unity.meta
+Global Game Jam 2019/Assets/FoodFinder.cs.meta
