@@ -5,15 +5,27 @@
   <script type="text/javascript" src="https://www.airconsole.com/api/airconsole-1.7.0.js"></script>
   <style type=text/css>
   /* the style sheet dictates what our elements (buttons, backgrounds etc.) will look like. */
-
+    #interact-button{
+    background-image: url("button.png");
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   </style>
   
   <script type="text/javascript">
+
+    var airconsole;
 
     function App() {
 
     /* JavaScript / Functionality. Add functions and evens here */ 
 
+      this.airconsole = new AirConsole({"orientation":"portrait"});
       
       /*
        * Here we are adding support for mouse events manually.
@@ -45,6 +57,6 @@
 </head>
 <body onload="window.app = new App()">
   <!-- Add your HTML elements here -->
-
+    <div id="interact-button" ontouchstart="window.app.sendMessageToScreen('interact')"></div>
 </body>
 </html>
