@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: a29a8aecd887b4aa0ac24df177a29d0f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Architecture
+    100002: back
+    100004: Baseboard1
+    100006: Baseboard2
+    100008: Baseboard3
+    100010: Baseboard4
+    100012: Ceiling
+    100014: Floor
+    100016: Hutch1
+    100018: Kitchen_Baseboard1
+    100020: Kitchen_Baseboard2
+    100022: Kitchen_Wall
+    100024: Long_Wall
+    100026: Mullions1
+    100028: Mullions2
+    100030: //RootNode
+    100032: pCube21
+    100034: pCube27
+    100036: pCube28
+    100038: pCube29
+    100040: pCube30
+    100042: side1
+    100044: Threshold_Casing
+    100046: Threshold_Wall
+    100048: transform1
+    100050: transform2
+    100052: transform3
+    100054: transform4
+    100056: transform5
+    100058: Window_Casing
+    100060: Window_Sill
+    100062: Window_Wall
+    400000: Architecture
+    400002: back
+    400004: Baseboard1
+    400006: Baseboard2
+    400008: Baseboard3
+    400010: Baseboard4
+    400012: Ceiling
+    400014: Floor
+    400016: Hutch1
+    400018: Kitchen_Baseboard1
+    400020: Kitchen_Baseboard2
+    400022: Kitchen_Wall
+    400024: Long_Wall
+    400026: Mullions1
+    400028: Mullions2
+    400030: //RootNode
+    400032: pCube21
+    400034: pCube27
+    400036: pCube28
+    400038: pCube29
+    400040: pCube30
+    400042: side1
+    400044: Threshold_Casing
+    400046: Threshold_Wall
+    400048: transform1
+    400050: transform2
+    400052: transform3
+    400054: transform4
+    400056: transform5
+    400058: Window_Casing
+    400060: Window_Sill
+    400062: Window_Wall
+    2000000: back
+    2000002: side1
+    2100000: FLoor_Pattern
+    2100002: Walls_2
+    2100004: Trim
+    2300000: Baseboard1
+    2300002: Baseboard2
+    2300004: Baseboard3
+    2300006: Baseboard4
+    2300008: Ceiling
+    2300010: Floor
+    2300012: Kitchen_Baseboard1
+    2300014: Kitchen_Baseboard2
+    2300016: Kitchen_Wall
+    2300018: Long_Wall
+    2300020: Mullions1
+    2300022: Mullions2
+    2300024: Threshold_Casing
+    2300026: Threshold_Wall
+    2300028: Window_Casing
+    2300030: Window_Sill
+    2300032: Window_Wall
+    3300000: Baseboard1
+    3300002: Baseboard2
+    3300004: Baseboard3
+    3300006: Baseboard4
+    3300008: Ceiling
+    3300010: Floor
+    3300012: Kitchen_Baseboard1
+    3300014: Kitchen_Baseboard2
+    3300016: Kitchen_Wall
+    3300018: Long_Wall
+    3300020: Mullions1
+    3300022: Mullions2
+    3300024: Threshold_Casing
+    3300026: Threshold_Wall
+    3300028: Window_Casing
+    3300030: Window_Sill
+    3300032: Window_Wall
+    4300000: Floor
+    4300002: Long_Wall
+    4300004: Threshold_Wall
+    4300006: Ceiling
+    4300008: Window_Wall
+    4300010: Kitchen_Wall
+    4300012: Window_Sill
+    4300014: Mullions1
+    4300016: Mullions2
+    4300018: Window_Casing
+    4300020: Baseboard1
+    4300022: Baseboard2
+    4300024: Baseboard3
+    4300026: Baseboard4
+    4300028: Kitchen_Baseboard1
+    4300030: Threshold_Casing
+    4300032: Kitchen_Baseboard2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FLoor_Pattern
+    second: {fileID: 2100000, guid: 64a89242ad232425eb423c197cad40fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trim
+    second: {fileID: 2100000, guid: f22c9304d9f4a4084b5b29c1d3183b57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_2
+    second: {fileID: 2100000, guid: 15d3d17d5b44d4eafac34fd2c8d7a09a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
