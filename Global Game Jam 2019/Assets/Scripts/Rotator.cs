@@ -13,7 +13,7 @@ public class Rotator : MonoBehaviour
     {
         gyro = Input.gyro;
         gyro.enabled = true;
-        initRot = Input.acceleration;
+        initRot = Vector3.up * 96.52f;
     }
 
     // Update is called once per frame
@@ -34,6 +34,6 @@ public class Rotator : MonoBehaviour
 
     public void Calibrate ()
     {
-        initRot = Vector3.zero;
+        initRot = Vector3.up * 96.52f;
     }
 }
